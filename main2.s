@@ -12,9 +12,9 @@
 
 #-----------global symbol-----------#
 .section .data
-    array: .byte 11, 15, 21, 23, 27, 31, 39, 40, 47, 50
-    num: .byte 50
-    len: .byte 10
+    array: .byte 11, 15, 21, 23, 27, 31, 39, 40, 47, 50, 51
+    num: .byte 51
+    len: .byte 11
 
 #-----------code-----------#
 #Codice assembly
@@ -29,15 +29,17 @@ main:
     lb a2, 0(t2)
     jal ra, printf 
 	 
-    #chiamo la funzione: sequential_search
+    #chiamo la funzione: binary_search
     la a0, array #address array
     la t1, num
     lb a1, 0(t1) #numero da cercare
+    li a2, 0 # low
     la t2, len
-    lb a2, 0(t2) #lunghezza array
-    jal ra, sequential_search
+    lb a3, 0(t2) #lunghezza array
+    addi a3, a3, -1 #-1
+    jal ra, binary_search
     
-    #fine funzione sequential_search, stampo risultato
+    #fine funzione binary_search, stampo risultato
     beq a1, zero, else
         mv a1, a0
         la a0, msgend

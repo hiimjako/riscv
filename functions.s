@@ -36,8 +36,7 @@ binary_search:
     sd ra, 0(sp)   
     blt a3, a2, elb_err 
         add t2, a2, a3
-        li t4, 2 #/2
-        div t1, t2, t4 #mid
+        srli t1, t2, 1
         add t2, a0, t1 #addr aggiustato
         lb t3, 0(t2)  #a[mid]
     bgt t3, a1, else1

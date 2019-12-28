@@ -13,7 +13,7 @@
 #-----------global symbol-----------#
 .section .data
     array: .byte 11, 15, 21, 23, 27, 31, 39, 40, 47, 50, 51
-    num: .byte 51
+    num: .byte 31
     len: .byte 11
 
 #-----------code-----------#

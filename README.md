@@ -10,5 +10,5 @@ I file presenti nella cartella:
 - ```functions.s```, file contenente le funzioni con gli algoritmi di ricerca binaria e sequenziale
 
 # Esecuzione file
-Per poter produrre ed eseguire l'eseguibile basterà eseguire ```bash compileC.sh [nome file]```
+Per poter produrre ed eseguire l'eseguibile basterà eseguire ```bash compileC.sh [nome file]```, (senza estensione)
 

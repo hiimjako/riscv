@@ -12,9 +12,9 @@
 
 #-----------global symbol-----------#
 .section .data
-    array: .byte 11, 15, 21, 23, 27, 31, 39, 40, 47, 50
-    num: .byte 50
-    len: .byte 10
+    array: .byte 11, 15, 21, 23, 27, 31, 39, 40, 47, 50, 51, 52, 63
+    num: .byte 63
+    len: .byte 13
 
 #-----------code-----------#
 .section .text

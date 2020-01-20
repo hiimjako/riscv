@@ -5,8 +5,8 @@ My risc-v project
 I file presenti nella cartella:
 - ```compile.sh```, bash per eseguire file.s
 - ```compileC.sh```, bash per eseguire file in C file.s
-- ```binaria.s```, file assembly per l'esecuzione della ricerca binaria
-- ```sequenziale.s```, file assembly per l'esecuzione della ricerca sequenziale
+- ```binary.s```, file assembly per l'esecuzione della ricerca binaria
+- ```sequential.s```, file assembly per l'esecuzione della ricerca sequenziale
 - ```functions.s```, file contenente le funzioni con gli algoritmi di ricerca binaria e sequenziale
 
 # Esecuzione file

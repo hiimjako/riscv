@@ -41,8 +41,8 @@ sFound:
 #t1 = index to scroll the array
 #t2 = the value in a[t1]
 #-----used labels:
-#elseLow = recall the function recursively if the value to find is lower then the a[i]
-#elseGrt = recall the function recursively if the value to find is higher then the a[i]
+#elseLow = recall the function recursively if the value to find is lower than the a[i]
+#elseGrt = recall the function recursively if the value to find is higher than the a[i]
 #elb_err = return if the number isn't in array
 binary_search:
     addi sp, sp, -8

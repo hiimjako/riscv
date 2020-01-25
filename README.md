@@ -1,5 +1,5 @@
-# riscv
-My risc-v project
+# Progetto 06 – Ricerca Binaria
+Repository con il progetto 06 - ricerca binaria di Alberto Moretti, primo anno Ingegneria Informatica - Sede di Mantova
 
 # File
 I file presenti nella cartella:

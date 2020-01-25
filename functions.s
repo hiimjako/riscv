@@ -24,11 +24,10 @@ ls1:
             lb t2, 0(t2)
     beq zero, zero, ls1
 els_err:
-    li a1, 0
+    li a0, -1
     jalr zero, ra 
 sFound:
     mv a0, t1
-    li a1, 1
     jalr zero, ra
 
 
@@ -58,7 +57,6 @@ binary_search:
         bgt t3, a1, elseLow
         blt t3, a1, elseGrt    
         mv a0, t1 
-        li a1, 1
         ld ra, 0(sp)
         addi sp, sp, 8
         jalr zero, ra 
@@ -74,8 +72,8 @@ elseGrt:
     ld ra, 0(sp)
     addi sp, sp, 8
     jalr zero, ra
-elb_err: 
-    li a1, 0
+elb_err:
+    li a0, -1
     ld ra, 0(sp)
     addi sp, sp, 8
     jalr zero, ra 

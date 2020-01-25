@@ -13,7 +13,7 @@
 #-----------global symbol-----------#
 .section .data
     array: .byte -25, -23, -21, -11, 0, 31, 39, 40, 47, 50, 51, 52, 63, 100, 127 
-    num: .byte 0
+    num: .byte -25
     len: .byte 15
 
 #-----------code-----------#
@@ -38,7 +38,7 @@ main:
     jal ra, binary_search
     
     #return binary_search
-    beq a1, zero, else
+    blt a0, zero, else
         mv a1, a0
         la a0, msgend
         jal ra, printf

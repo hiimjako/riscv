@@ -13,7 +13,7 @@
 #-----------global symbol-----------#
 .section .data
     array: .byte 11, 15, 21, 23, 27, 31, 39, 40, 47, 50, 51, 52, 63
-    num: .byte 63
+    num: .byte 12
     len: .byte 13
 
 #-----------code-----------#
@@ -37,7 +37,7 @@ main:
     jal ra, sequential_search
     
     #return sequential_search
-    beq a1, zero, else
+    blt a0, zero, else
         mv a1, a0
         la a0, msgEnd
         jal ra, printf

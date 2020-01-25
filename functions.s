@@ -4,8 +4,7 @@
 #a1 = numbert to find,
 #a2 = array len;
 #-----outputs:
-#a1 = index of the number
-#a2 = flag, if we found the number: 1 ? 0
+#a0 = index of the number
 #-----used registers:
 #t1 = index to scroll the array
 #t2 = the value in a[t1]
@@ -37,8 +36,7 @@ sFound:
 #a2 = low 
 #a3 = high 
 #-----outputs:
-#a1 = index of the number
-#a2 = flag, if we found the number 1 ? 0
+#a0 = index of the number
 #-----used registers:
 #t1 = index to scroll the array
 #t2 = the value in a[t1]

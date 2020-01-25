@@ -12,3 +12,6 @@ I file presenti nella cartella:
 # Esecuzione file
 Per poter produrre ed eseguire l'eseguibile basterà eseguire ```bash compileC.sh [nome file]```, (senza estensione)
 
+# Relazione
+Link relazione: https://docs.google.com/document/d/1BdBQLZGVaKwhoTRANu1T1CM7dYnPzcVNhP0us7hMFgQ/edit?usp=sharing
+Link presentazione: https://docs.google.com/presentation/d/1hW-l-ni-epe6zW0gCu9hnf4by1r2yU2mRaaITWH9iPM/edit?usp=sharing
